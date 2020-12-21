@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".maluku.SaguActivity">
+
+<ScrollView
+    android:layout_width="413dp"
+    android:layout_height="728dp"
+    android:layout_marginTop="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="368dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="32dp"
+            android:text="Sagu Papeda Maluku"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="294dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/img7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="375dp"
+            android:layout_height="406dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Makanan tradisional Maluku pertama adalah Papeda. Papeda berbahan dasar sagu dan mempunyai tekstur yang kenyal menyerupai gel ataulem berwarna putih bening. Rasanya yang tawar membuat papeda cocok disajikan bersama dengan olahan ikan laut yang dibumbui dengan kunyit yang dikenal dengan nama ikan kuah kuning. Sebagai pelengkap, papeda juga kerap dinikmati dengan sayur yang diolah dari daun melinjo muda atau disebut dengan sayur ganemo.\n\nMenurut sejarah, papeda terkenal luas dalam masyarakat adat Sentanu dan Abrab di Danau Sentani dan Arso, juga Manokwari. Makanan kenyal ini sering dihidangkan saat acara-acara penting di wilayah Papua, Maluku, dan sekitarnya. Sehingga tak heran jika papeda menjadi salah satu warisan kuliner Nusantara yang khas.\n\nDilansir dariindonesia.go.id, sebagai makanan tradisional yang khas, papeda menyimpan riwayat sejarah. Oleh masyarakat Raja Ampat, Papua, sagu memang dianggap sebagai sesuatu yang begitu istimewa. Itulah sebabnya, saat memanen sagu mereka acap menggelar upacara khusus sebagai rasa syukur dan penghormatan akan hasil panen (sagu) yang melimpah, sehingga dapat memenuhi kebutuhan seluruh keluarga di sana.\n\nSedangkan di Pulau Seram, Maluku, Suku Nuaulu menyantap papeda atau di sana disebut sebagai sonar monne. Makanan itu telah disakralkan dalam ritual perayaan masa pubertas seorang gadis. Selain itu, Suku Nuaulu dan Suku Huaulu juga melarang wanita yang sedang dalam masa haid memasak papeda, karena menurut mereka proses merebus sagu menjadi papeda dianggap tabu.\n\nMasyarakat Papua, Maluku dan sekitarnya menjadikan papeda sebagai makanan pokok. Proses mengolah sagu menjadi papeda membutuhkan perkakas belanga. Lalu, air mendidih dituangkan ke dalam saripati sagu dalam belangan tersebut sambil diaduk sampai mengental dan terjadi perubahan warna, yaitu dari putih menjadi bening keabu-abuan. Pengadukan dalam proses ini harus searah sampai tekstur benar-benar merata menjadi bubur menyerupai lem.\n\nSepasang sumpit atau dua garpu khusus digunakan untuk mengambil dan menyantap papeda. Caranya dengan menggulung-gulung hingga bubur papeda melingkari sumpit atau garpu, lalu diletakkan di piring dan siap disantap bersama kuah kuning. Cara menyantap papeda tidak perlu dikunyah, melainkan dapat langsung diseruput dan ditelan.\n\nWarisan kuliner asal Maluku dan Papua yang satu ini memiliki berbagai manfaat yang berguna bagi kesehatan tubuh. Selain kaya serat, papeda juga rendah kolestrol dan bernutrisi. Papeda memiliki nutrisi esensial seperti protein, karbohidrat, kalsium, fosfor, zat besi, dan lain-lain. Bahkan, rutin mengonsumsi papeda dapat meningkatkan kekebalan dan daya tahan tubuh, serta mengurangi risiko terjadinya kanker usus, hingga membersihkan paru-paru."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

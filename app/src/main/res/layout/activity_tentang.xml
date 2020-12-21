@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Kelompok:\n\nAlfian Nur (183110009)\n Imam Achmat Lasogi (183110002)\n Vincentius Domas (183110023)\n"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Daftar Kuliner Indonesia berbasis android"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:text="Deskripsi : Aplikasi ini dirancang dan dibuat untuk membantu wisatawan. Aplikasi ini menampilkan berbagai makanan dari setiap provinsi, yang dimana akan ada deskripsi makanan beserta harga. Aplikasi ini bertujuan untuk memudahkan masyarakat atau wisatawan ketika sedang bepergian maupun sedang berwisata untuk menemukan makanan apa saja yang terdapat di provinsi tersebut. tidak sampai disitu kami juga menampilkan deskripsi, foto serta harga makanan tersebut.\n\nWisata kuliner saat ini menjadi wisata yang paling banyak dampaknya terhadap sebuah daerah. Wisata kuliner boleh saja menjadi suatu daya pikat yang dapat menyebabkan orang-orang untuk berkunjung ke suatu daerah, yang memiliki ciri khas kuliner dan banyak terdapat tempat kuliner di daerah tersebut. Wisata kuliner sendiri, kini semakin tumbuh dan berkembang mengikuti apa yang sedang musim di kalangan masyarakat.\n\nBanyaknya kuliner atau masakan asing yang masuk ke Indonesia tidak menuntut kemungkinan kelestarian kuliner Indonesai semakin terkikis oleh zaman. Oleh sebab itu pelestarian kuliner indonesia harus dilakukan karena merupakan bagian dari kebudayan Indonesia. Oleh karena itu pemanfaatan teknologi sangatlah penting untuk menjaga kelestarian kuliner Indonesia dan menyampaikannya kepada masyarakat khususnya generasi muda saat ini.\n\nTampilan :  halaman utama dari aplikasi daftar kuliner Indonesia berbasis android. Terdapat tiga menu yaitu menu mulai, menu tentang dan menu keluar. Menu mulai merupakan menu yang disediakan untuk mencari kuliner Indonesia yang akan menampilkan pilihan beberapa pulau di Indonesia, menu tentang berisi tentang aplikasi ini, dan menu keluar untuk keluar dari aplikasi.\nPembagian kerja :\nAlfian Nur : Menu Mulai (Pulau Kalimantan, Pulau Nusa Tenggara, Pulau Maluku) dan Menu exit.\nImam Achmat Lasogi : Menu Mulai (Pulau Sumatera, Pulau Sulawesi) dan Menu Tentang\nVincentius Domas : Menu Mulai (Pulau Jawa dan Pulau Papua) "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
